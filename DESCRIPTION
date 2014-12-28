@@ -1,0 +1,18 @@
+Package: ZeligPanel
+Type: Package
+Title: Zelig Panel AR
+Version: 0.1
+Date: 2014-12-27
+Author: Who wrote it
+Maintainer: Konstantin Kashin <kkashin@fas.harvard.edu>
+Description: Zelig Panel AR
+License: GPL (>=2)
+Depends:
+    Zelig,
+    panelAR
+Suggests:
+    testthat,
+    knitr
+Collate:
+    'model-panel-ar.R'
+    'create-json.R'

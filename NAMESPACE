@@ -1,0 +1,8 @@
+import(Zelig, panelAR)
+
+exportPattern("^[[:alpha:]]+")
+exportClasses(
+     "Zelig-panel-ar"
+)
+
+importFrom(methods, setRefClass)

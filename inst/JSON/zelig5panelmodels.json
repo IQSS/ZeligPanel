@@ -1,0 +1,35 @@
+{
+    "zelig5panelmodels": {
+        "panelar": {
+            "name": [
+                "panel-ar"
+            ],
+            "description": [
+                "Linear AR(1) Panel Data Models with Cross-Sectional Heteroskedasticity and/or Correlation"
+            ],
+            "outcome": {
+                "modelingType": [
+                    ""
+                ]
+            },
+            "explanatory": {
+                "modelingType": [
+                    "continuous",
+                    "discrete",
+                    "nominal",
+                    "ordinal",
+                    "binary"
+                ]
+            },
+            "vignette.url": [
+                "http://docs.zeligproject.org/zelig-panel-ar.html"
+            ],
+            "wrapper": [
+                "panelAR"
+            ],
+            "tree": [
+                "Zelig-panel-ar"
+            ]
+        }
+    }
+}
